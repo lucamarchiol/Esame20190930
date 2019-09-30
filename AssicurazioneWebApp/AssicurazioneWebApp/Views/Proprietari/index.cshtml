@@ -1,0 +1,41 @@
+﻿@model IEnumerable<AssicurazioneWebApp.Models.Proprietari>
+
+@{
+    ViewData["Title"] = "index";
+}
+
+<h1>Lista Proprietari</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.codicefiscale)
+                @Html.DisplayNameFor(model => model.nome)
+                @Html.DisplayNameFor(model => model.cognome)
+                @Html.DisplayNameFor(model => model.residenza)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.codicefiscale)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cognome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.residenza)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
