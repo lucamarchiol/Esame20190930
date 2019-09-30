@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore;
 
 namespace AssicurazioneWebApp.Models
 {
-    public class Proprietari
+    public class Proprietario
     {
         [Key]
         public string codicefiscale { get; set; }

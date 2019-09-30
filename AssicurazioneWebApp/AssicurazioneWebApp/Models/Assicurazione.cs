@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AssicurazioneWebApp.Models
 {
-    public class Assicurazioni
+    public class Assicurazione
     {
         public int id { get; set; }
         public string nome { get; set; }

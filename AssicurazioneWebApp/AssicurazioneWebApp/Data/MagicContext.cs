@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System.IO;
 using AssicurazioneWebApp.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace AssicurazioneWebApp.Data
 {
@@ -12,9 +13,9 @@ namespace AssicurazioneWebApp.Data
         {
 
         }
-        public DbSet<Assicurazioni> Assicurazioni { get; set; }
-        public DbSet<Auto> Auto { get; set; }
-        public DbSet<Proprietari> Proprietari { get; set; }
+        public DbSet<Assicurazione> Assicurazioni { get; set; }
+        public DbSet<Automobile> Auto { get; set; }
+        public DbSet<Proprietario> Proprietari { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

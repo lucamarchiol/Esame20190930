@@ -12946,11 +12946,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bearzi\\source\\repos\\AssicurazioneWebApp\\AssicurazioneWebApp\\AssicurazioneWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\bearzi\\Desktop\\Rainis\\GitHubDesk\\Esame20190930\\AssicurazioneWebApp\\AssicurazioneWebApp\\AssicurazioneWebApp.csproj",
       "projectName": "AssicurazioneWebApp",
-      "projectPath": "C:\\Users\\bearzi\\source\\repos\\AssicurazioneWebApp\\AssicurazioneWebApp\\AssicurazioneWebApp.csproj",
+      "projectPath": "C:\\Users\\bearzi\\Desktop\\Rainis\\GitHubDesk\\Esame20190930\\AssicurazioneWebApp\\AssicurazioneWebApp\\AssicurazioneWebApp.csproj",
       "packagesPath": "C:\\Users\\bearzi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bearzi\\source\\repos\\AssicurazioneWebApp\\AssicurazioneWebApp\\obj\\",
+      "outputPath": "C:\\Users\\bearzi\\Desktop\\Rainis\\GitHubDesk\\Esame20190930\\AssicurazioneWebApp\\AssicurazioneWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

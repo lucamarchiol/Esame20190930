@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AssicurazioneWebApp.Data;
+﻿using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using AssicurazioneWebApp.Data;
 
 namespace AssicurazioneWebApp.Controllers
 {
@@ -18,9 +14,9 @@ namespace AssicurazioneWebApp.Controllers
         }
 
         
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.Proprietari.ToListAsync());
+            return View( _context.Proprietari);
         }
     }
 }
